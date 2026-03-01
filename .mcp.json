@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "notes-api": {
+      "command": "/Users/gayuso/projects/experiments/rest2mcp/venv/bin/python",
+      "args": ["/Users/gayuso/projects/experiments/rest2mcp/src/server/main.py"]
+    }
+  }
+}

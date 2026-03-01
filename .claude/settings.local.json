@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__notes-api__create_note",
+      "mcp__notes-api__list_notes",
+      "mcp__notes-api__update_note"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "notes-api"
+  ]
+}
