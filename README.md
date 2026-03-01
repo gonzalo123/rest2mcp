@@ -2,7 +2,9 @@
 
 Most organizations already have REST APIs. They power internal dashboards, connect microservices, expose data to mobile apps. They work. But now you want an AI agent to use those same services, and agents don't speak REST. They speak MCP. Do you rewrite everything? No. You build a thin adapter layer that translates between the two protocols, and your existing API stays untouched.
 
-That's exactly what this project does. We take a standard Flask REST API and wrap it with an MCP server using FastMCP. Any MCP-compatible client, Claude Code, Cursor, Windsurf, Amazon Q, can discover and call the API endpoints as tools, without knowing there's a REST layer underneath.
+![logo](img/logo.png) 
+
+That's exactly what this project does. We take a standard Flask REST API and wrap it with an MCP server using FastMCP. Any MCP-compatible client, Claude Code, Cursor, Windsurf, can discover and call the API endpoints as tools, without knowing there's a REST layer underneath.
 
 ```mermaid
 graph LR
